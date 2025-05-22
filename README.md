@@ -24,6 +24,7 @@ services:
           hard: "65536"
     ports:
         - "631:631"
+        - "5353:5353/udp"
     environment:
         - USERNAME=admin
         - PASSWORD=cups
