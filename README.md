@@ -29,5 +29,5 @@ services:
         - PASSWORD=cups
         - TZ="America/Sao_Paulo"
     volumes:
-        - "/srv/waprint/cups/:/etc/cups/"
+        - "./cups/:/etc/cups/"
 ```
